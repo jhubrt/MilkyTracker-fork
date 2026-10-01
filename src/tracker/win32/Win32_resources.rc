@@ -7,7 +7,7 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
+#include "winres.h"
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -34,7 +34,7 @@ END
 
 2 TEXTINCLUDE MOVEABLE PURE 
 BEGIN
-    "#include ""afxres.h""\r\n"
+    "#include ""winres.h""\r\n"
     "\0"
 END
 
@@ -86,17 +86,6 @@ BEGIN
                     TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,43,80,102,19
     LTEXT           "Amplify  0%",IDC_STATIC,6,83,36,8
     LTEXT           "200%",IDC_STATIC,148,83,18,8
-END
-
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// Dialog Info
-//
-
-IDD_PROPERTIES DLGINIT
-BEGIN
-    IDC_COMBO_MIDIDEVICES, 0x403, 1, 0
 END
 
 
