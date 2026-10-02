@@ -28,8 +28,8 @@ env:
   # pour y placer l'exe sous son nom d'origine. Sans "|", l'exe est placé à
   # la racine du zip.
   EXES: >-
-    src\tracker\Debug\BlitSTracker_debug.exe;
-    src\tracker\Release\BlitSTracker.exe;
+    src\tracker\Debug\BlitSTracker_debug.exe|BIN\BLS\;
+    src\tracker\Release\BlitSTracker.exe|BIN\BLS\;
 
   # Fichiers et dossiers du dépôt à livrer avec les exe, séparés par des ";".
   # Une ligne commençant par "#" est un vrai commentaire YAML et est ignorée
