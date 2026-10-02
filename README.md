@@ -30,6 +30,12 @@ YM2149 emulation code integrated courtesy of *N.Pomarede*
 
 ## Changes
 
+### 02.10.2026
+
+Add build on github. The resulting binary release content in zip should be mixed with the one from demOS depot binary release (also on my account) in a way that BIN\BLS\ folders content merges :
+* https://github.com/jhubrt/MilkyTracker-fork/releases
+* https://github.com/jhubrt/demOS/releases
+
 ### 01.11.2022
 
 Try to make YM bank .ini file management a bit more intuitive
