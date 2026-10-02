@@ -37,15 +37,15 @@ env:
   # Les .bat doivent être à côté de l'exe : Tracker::runBLSBatch les lance
   # depuis le dossier de l'exécutable.
   EXTRA_FILES:
-    src\tracker\batchs\BlsConvert.bat;
-    src\tracker\batchs\BlsConvert_debug.bat;
-    src\tracker\batchs\BlsConvertNPlay.bat;
-    src\tracker\batchs\BlsConvertNPlay_debug.bat;
-    src\tracker\batchs\BlzConvertNPlay.bat;
-    src\tracker\batchs\BlzConvertNPlay_debug.bat;
-    src\tracker\batchs\SynthYMedit.bat;
-    src\tracker\batchs\SynthYMrun.bat;
-    src\tracker\batchs\SynthYMrun_debug.bat;
+    src\tracker\batchs\BlsConvert.bat|BIN\BLS\;
+    src\tracker\batchs\BlsConvert_debug.bat|BIN\BLS\;
+    src\tracker\batchs\BlsConvertNPlay.bat|BIN\BLS\;
+    src\tracker\batchs\BlsConvertNPlay_debug.bat|BIN\BLS\;
+    src\tracker\batchs\BlzConvertNPlay.bat|BIN\BLS\;
+    src\tracker\batchs\BlzConvertNPlay_debug.bat|BIN\BLS\;
+    src\tracker\batchs\SynthYMedit.bat|BIN\BLS\;
+    src\tracker\batchs\SynthYMrun.bat|BIN\BLS\;
+    src\tracker\batchs\SynthYMrun_debug.bat|BIN\BLS\;
 
   APP_NAME: BlitSTracker            # nom du dossier et du zip livrés
   PLATFORM: Win32                   # identique pour toutes les solutions
